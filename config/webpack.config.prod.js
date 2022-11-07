@@ -10,9 +10,6 @@ module.exports = {
         filename: '[name]-bundle.js',
         path: path.resolve(__dirname, '../', 'build'),
     },
-    devServer: {
-        open: true,
-    },
     module: {
         rules: [
             {
