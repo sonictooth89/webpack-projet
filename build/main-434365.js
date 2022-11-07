@@ -16,7 +16,7 @@
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"Witaj, swiecie!!!!!!!!!!!!!\");\n\n//# sourceURL=webpack://webpack-projekt/./src/title.txt?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"Hello, World!!!!!!!!!!!!!\");\n\n//# sourceURL=webpack://webpack-projekt/./src/title.txt?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mes
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"message\": () => (/* binding */ message),\n/* harmony export */   \"messageDOM\": () => (/* binding */ messageDOM)\n/* harmony export */ });\nconst message = (info) => console.log(info);\nconst messageDOM = (info) => document.body.textContent = info;\n\nconst a = 555;\n\n//# sourceURL=webpack://webpack-projekt/./src/message.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"message\": () => (/* binding */ message),\n/* harmony export */   \"messageDOM\": () => (/* binding */ messageDOM)\n/* harmony export */ });\nconst message = (info) => console.log(info);\nconst messageDOM = (info) => {\n    const container = document.querySelector('div')\n    container.textContent = info;\n}\n\nconst a = 657555;\n\n//# sourceURL=webpack://webpack-projekt/./src/message.js?");
 
 /***/ })
 
