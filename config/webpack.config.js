@@ -4,10 +4,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        main: './src/index.js'
+        main: './src/index.js',
     },
     output: {
-        filename: '[name]-bundle.js',
+        filename: '[name]-[contenthash:6].js',
         path: path.resolve(__dirname, '../', 'build'),
     },
     module: {

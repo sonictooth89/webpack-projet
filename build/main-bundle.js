@@ -1,1 +1,0 @@
-(()=>{"use strict";const e="Witaj, swiecie!!!!!!!!!!!!!";console.log("Witaj, swiecie!!!!!!!!!!!!!"),document.body.textContent="Witaj, swiecie!!!!!!!!!!!!!"})();
